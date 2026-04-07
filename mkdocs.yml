@@ -5,7 +5,7 @@ repo_url: https://github.com/SagiriWWW/DND.SRD.zh-CN
 repo_name: SagiriWWW/DND.SRD.zh-CN
 
 docs_dir: .
-site_dir: site
+site_dir: /tmp/mkdocs-site
 
 theme:
   name: material
@@ -35,5 +35,5 @@ markdown_extensions:
 
 exclude_docs: |
   .git/
+  .github/
   .gitignore
-  site/
